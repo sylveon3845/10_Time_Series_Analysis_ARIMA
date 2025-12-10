@@ -1,5 +1,3 @@
-# 10_Time_Series_Analysis_ARIMA
-
 # 📈 Project 10：ARIMA-GARCH 金融時間序列預測與風險分析
 
 ## 🎯 專案概述 (Project Overview)
@@ -23,6 +21,18 @@
 | :--- | :--- | :--- |
 | **穩定性檢驗** | **ADF 檢驗結果：** 原始序列不穩定 $(\text{P-value} \approx 1.0)$，一階差分後穩定 $(\text{P-value} \approx 0.0)$。 | 確定整合階數 $\mathbf{d=1}$。 |
 | **ACF / PACF 分析** | ACF 圖截尾於 Lag 1，PACF 圖截尾於 Lag 1。 | 確定自迴歸 $\mathbf{p=1}$ 和移動平均 $\mathbf{q=1}$。 |
+
+### 🔍 參數識別圖表 (d=1 序列)
+
+以下圖表用於確認 $\mathbf{p=1}$ 和 $\mathbf{q=1}$：
+
+**ACF 圖 (確定 q):**
+![Autocorrelation Function Plot of Differenced Series](acf_plot.png)
+
+**PACF 圖 (確定 p):**
+![Partial Autocorrelation Function Plot of Differenced Series](pacf_plot.png)
+
+---
 
 ### 步驟 4：ARIMA(1, 1, 1) 訓練與診斷
 
