@@ -51,7 +51,7 @@
 模型在 $10\%$ 測試集上的 $\text{RMSE}$ 約為 $\mathbf{40.04}$，顯示預測誤差仍高，但結構診斷合格。
 
 **ARIMA 價格預測視覺化 (訓練集 vs. 測試集預測):**
-![ARIMA Prediction Plot]
+![ARIMA Prediction Plot](arima_prediction_plot.png)
 
 | 指標 | 數值 | 診斷判讀 |
 | :--- | :--- | :--- |
@@ -68,7 +68,7 @@
 GARCH 模型成功捕捉了市場的波動度叢集現象。
 
 **GARCH 條件波動度視覺化 (展示風險動態):**
-![GARCH Volatility Plot]
+![GARCH Volatility Plot](garch_volatility_plot.png)
 
 | 參數 | 係數 ($\text{coef}$) | 經濟意義 |
 | :--- | :--- | :--- |
