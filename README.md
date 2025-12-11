@@ -39,10 +39,10 @@
 以下圖表用於確認 $\mathbf{p=1}$ 和 $\mathbf{q=1}$：
 
 **ACF 圖 (確定 q):**
-![Autocorrelation Function Plot of Differenced Series]
+![Autocorrelation Function Plot of Differenced Series](acf_plot.png)
 
 **PACF 圖 (確定 p):**
-![Partial Autocorrelation Function Plot of Differenced Series]
+![Partial Autocorrelation Function Plot of Differenced Series](pacf_plot.png)
 
 ---
 
