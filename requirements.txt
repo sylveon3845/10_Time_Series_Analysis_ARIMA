@@ -1,0 +1,12 @@
+# 數據處理與下載
+pandas
+numpy
+yfinance
+
+# 時序分析與建模 (ARIMA / GARCH)
+statsmodels 
+arch
+
+# 數據圖 
+matplotlib
+jupyter
